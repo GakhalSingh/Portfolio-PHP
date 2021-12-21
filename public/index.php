@@ -1,6 +1,6 @@
 <?php
 require '../Modules/Database.php';
-require '../Modules/Projects.php';
+require '../Modules/Main.php';
 
 $request = $_SERVER['REQUEST_URI'];
 $params = explode("/", $request);
@@ -17,6 +17,11 @@ switch ($params[1]) {
         $titleSuffix = ' | Projecten';
         $projects = getProjects();
         include_once "../Templates/projects.php";
+        break;
+    case 'skills':
+        $titleSuffix = ' | Vaardigheden';
+        $skills = getSkills();
+        include_once "../Templates/skills.php";
         break;
 
     default:
