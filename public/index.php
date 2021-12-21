@@ -1,5 +1,6 @@
 <?php
 require '../Modules/Database.php';
+require '../Modules/Projects.php';
 
 $request = $_SERVER['REQUEST_URI'];
 $params = explode("/", $request);
@@ -11,6 +12,11 @@ switch ($params[1]) {
     case 'home':
         $titleSuffix = ' | Home';
         include_once "../Templates/home.php";
+        break;
+    case 'projects':
+        $titleSuffix = ' | Projecten';
+        $projects = getProjects();
+        include_once "../Templates/projects.php";
         break;
 
     default:

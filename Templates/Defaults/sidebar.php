@@ -11,9 +11,10 @@
         </button>
         <div class="collapse show" id="home-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">Projecten</a></li>
-            <li><a href="#" class="link-dark rounded">Vaardigheden</a></li>
-            <li><a href="#" class="link-dark rounded">Updates</a></li>
+            <li><i class="bi bi-book"></i><a href="/home" class="link-dark rounded">Welkom</a></li>
+            <li><i class="bi bi-book"></i><a href="/projects" class="link-dark rounded">Projecten</a></li>
+            <li><i class="bi bi-bookmark-star"></i><a href="#" class="link-dark rounded">Vaardigheden</a></li>
+            <li><i class="bi bi-journal"></i><a href="#" class="link-dark rounded">Updates</a></li>
           </ul>
         </div>
       </li>
