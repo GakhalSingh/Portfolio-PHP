@@ -1,6 +1,6 @@
 <?php
 $host = '127.0.0.1';
-$db   = 'portfolio';
+$db   = 'healthone';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -14,7 +14,11 @@ $options = [
 
 try {
     $pdo = new PDO($dsn, $user, $pass, $options);
-    include_once('../Classes/Update.php');
+    include_once('../Classes/Category.php');
+    include_once('../Classes/Product.php');
+    include_once('../Classes/Open_Times.php');
+    include_once('../Classes/Review.php');
+    include_once('../Classes/User.php');
 } catch (\PDOException $e) {
     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
