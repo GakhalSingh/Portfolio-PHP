@@ -28,6 +28,11 @@ switch ($params[1]) {
         $updates = getUpdates();
         include_once "../Templates/updates.php";
         break;
+    case 'contact':
+        $titleSuffix = ' | Contact';
+        $updates = getUpdates();
+        include_once "../Templates/contact.php";
+        break;
 
     default:
     $titleSuffix = ' | Home';

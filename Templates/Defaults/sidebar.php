@@ -24,10 +24,10 @@
         </button>
         <div class="collapse" id="dashboard-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><i class="bi bi-telephone"></i><a href="#" class="link-dark rounded">Contact Gegevens</a></li>
-            <li><i class="bi bi-facebook"></i><a href="#" class="link-dark rounded">Facebook/Meta</a></li>
-            <li><i class="bi bi-twitter"></i><a href="#" class="link-dark rounded">Twitter</a></li>
-            <li><i class="bi bi-discord"></i><a href="#" class="link-dark rounded">Discord</a></li>
+            <li><i class="bi bi-telephone"></i><a href="/contact" class="link-dark rounded">Contact Gegevens</a></li>
+            <li><i class="bi bi-facebook"></i><a href="https://www.facebook.com/ExosHeroes.gl/" class="link-dark rounded">Facebook/Meta</a></li>
+            <li><i class="bi bi-twitter"></i><a href="https://twitter.com/moistcr1tikal" class="link-dark rounded">Twitter</a></li>
+            <li><i class="bi bi-discord"></i><a href="https://discord.com/invite/fortnite" class="link-dark rounded">Discord</a></li>
           </ul>
         </div>
       </li>

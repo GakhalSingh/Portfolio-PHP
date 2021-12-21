@@ -22,7 +22,7 @@ include_once('defaults/head.php');
                             <div class="card-body">
                                 <h5 class="card-title"><?= $update->title; ?></h5>
                                 <p class="card-text"><?= $update->message; ?></p>
-                                <a href="<?= $update->link; ?>" class="btn btn-primary">Naar BKE</a>
+                                <a href="<?= $update->link; ?>" class="btn btn-primary">Bekijken</a>
                             </div>
                             <div class="card-footer text-muted">
                                 <?= $update->date; ?>
