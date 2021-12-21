@@ -16,3 +16,12 @@ function getSkills()
     $result = $query->fetchAll(PDO::FETCH_CLASS,"Skill");
     return $result;
 }
+
+function getUpdates()
+{
+    global $pdo;
+    $query = $pdo->prepare("SELECT * FROM updates");
+    $query->execute();
+    $result = $query->fetchAll(PDO::FETCH_CLASS,"Update");
+    return $result;
+}

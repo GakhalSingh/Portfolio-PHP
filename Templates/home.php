@@ -20,6 +20,12 @@ include_once('defaults/head.php');
                     Welkom op mijn portfolio! Hier kun je zien aan welke projecten ik mee heb gedaan en wat mijn vaardigheden zijn.
                     Hij is volledig in PHP gemaakt! :)
                 </p>
+                
+                <?php for ($x = 0; 7 > $x; $x++) {
+                    echo '<img src="../public\img\vei-sway.gif">';
+                    echo '<img src="../public\img\vei-nodders.gif">';
+                }
+                ?>
             </div>
         </div>
         <?php 

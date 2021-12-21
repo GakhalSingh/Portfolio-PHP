@@ -23,6 +23,11 @@ switch ($params[1]) {
         $skills = getSkills();
         include_once "../Templates/skills.php";
         break;
+    case 'updates':
+        $titleSuffix = ' | Updates';
+        $updates = getUpdates();
+        include_once "../Templates/updates.php";
+        break;
 
     default:
     $titleSuffix = ' | Home';
