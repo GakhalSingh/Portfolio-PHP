@@ -4,7 +4,6 @@
 <?php
 include_once('defaults/head.php');
 ?>
-
 <body>
     <div class="container rounded " style="background:Gainsboro">
         <div class="d-flex">

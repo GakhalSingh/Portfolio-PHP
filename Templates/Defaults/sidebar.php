@@ -11,7 +11,7 @@
         </button>
         <div class="collapse show" id="home-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><i class="bi bi-book"></i><a href="/home" class="link-dark rounded">Welkom</a></li>
+            <li><i class="bi bi-house-door"></i><a href="/home" class="link-dark rounded">Welkom</a></li>
             <li><i class="bi bi-book"></i><a href="/projects" class="link-dark rounded">Projecten</a></li>
             <li><i class="bi bi-bookmark-star"></i><a href="/skills" class="link-dark rounded">Vaardigheden</a></li>
             <li><i class="bi bi-journal"></i><a href="/updates" class="link-dark rounded">Updates</a></li>

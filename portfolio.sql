@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 21 dec 2021 om 23:30
+-- Gegenereerd op: 22 dec 2021 om 21:55
 -- Serverversie: 10.4.21-MariaDB
 -- PHP-versie: 8.0.11
 
@@ -92,6 +92,28 @@ CREATE TABLE `updates` (
 INSERT INTO `updates` (`id`, `title`, `message`, `link`, `date`) VALUES
 (1, 'Het Begin', 'Ik heb de Updates pagina aangemaakt', 'https://open.spotify.com/track/5bHO3kyv8UnR7vW6ZicMTJ?si=4732da8286fe4645', '2021-12-21');
 
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(64) NOT NULL,
+  `role` varchar(64) NOT NULL,
+  `status` varchar(64) NOT NULL,
+  `email` varchar(256) NOT NULL,
+  `image` varchar(1280) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `role`, `status`, `email`, `image`) VALUES
+(1, 'Gakhal', 'administrator', 'active', '', '');
+
 --
 -- Indexen voor geëxporteerde tabellen
 --
@@ -115,6 +137,12 @@ ALTER TABLE `updates`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexen voor tabel `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT voor geëxporteerde tabellen
 --
 
@@ -134,6 +162,12 @@ ALTER TABLE `projects`
 -- AUTO_INCREMENT voor een tabel `updates`
 --
 ALTER TABLE `updates`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT voor een tabel `users`
+--
+ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
