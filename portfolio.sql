@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 22 dec 2021 om 21:55
+-- Gegenereerd op: 17 jan 2022 om 23:24
 -- Serverversie: 10.4.21-MariaDB
 -- PHP-versie: 8.0.11
 
@@ -69,7 +69,9 @@ INSERT INTO `projects` (`id`, `title`, `description`, `image`, `contributors`, `
 (1, 'C# - Dice Project', 'We moesten in januari 2021 een dice spel maken. Ik had dat met de SCRUM team Boomer Gang gemaakt.', '../public/img/code.gif', 'Ramy Haroun', 'https://github.com/GakhalSingh'),
 (2, 'C# - Hoger/Lager Project', 'We moesten in februari 2021 een \"Hoger of Lager\" spel maken. Ik heb dit met de SCRUM team Boomer Gang gemaakt.\r\n\r\n', '../public/img/code.gif', 'Ramy Haroun, Keren Blokpoel, Sandro de Bruin, Riza Karbicek', 'https://github.com/GakhalSingh'),
 (3, 'HTML/CSS/JS - Portfolio Project\r\n', 'Ik heb een verouderde versie van mijn portfolio die ik gemaakt heb op mijn eerste jaar van de MBO Software Developer opleiding.', '../public/img/code.gif', '', 'https://gakhalsingh.github.io/'),
-(4, 'HTML/CSS/PHP Portfolio', 'Je bent er nu op!', '../public/img/code.gif', '', 'https://github.com/GakhalSingh/Portfolio-PHP');
+(4, 'HTML/CSS/PHP Portfolio', 'Je bent er nu op!', '../public/img/code.gif', '', 'https://github.com/GakhalSingh/Portfolio-PHP'),
+(5, 'HealthOne', 'Een PHP website voor de fitnessclub HealthOne. Heeft een volledige catalogus van de sportwinkel met review en admin panel functionaliteit.', '../public/img/code.gif', '', 'https://github.com/GakhalSingh/healthone-opdracht'),
+(6, 'ZuZu Sushishop', 'Een PHP website voor de sushishop ZuZu. Heeft een winkelwagen een catalague uit een database.', '../public/img/code.gif', '', 'https://github.com/GakhalSingh/zuzu2/tree/main/zuzu-main/zuzu-main');
 
 -- --------------------------------------------------------
 
@@ -156,7 +158,7 @@ ALTER TABLE `codelanguages`
 -- AUTO_INCREMENT voor een tabel `projects`
 --
 ALTER TABLE `projects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT voor een tabel `updates`
