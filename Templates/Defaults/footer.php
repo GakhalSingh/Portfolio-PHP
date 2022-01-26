@@ -17,7 +17,7 @@
         <ul class="nav flex-column">
         <li class="nav-item mb-2"><a href="/projects" class="nav-link p-0 text-muted">Previous Projects</a></li>
           <li class="nav-item mb-2"><a href="/skills" class="nav-link p-0 text-muted">Skills</a></li>
-          <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="/pricing" class="nav-link p-0 text-muted">Pricing</a></li>
           <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-muted">Contact</a></li>
         </ul>
       </div>
@@ -27,7 +27,7 @@
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-muted">Beta Signup</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Themas</a></li>
-          <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="/pricing" class="nav-link p-0 text-muted">FAQs</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Logout</a></li>
         </ul>
       </div>

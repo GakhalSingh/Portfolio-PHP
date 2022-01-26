@@ -33,6 +33,11 @@ switch ($params[1]) {
         $updates = getUpdates();
         include_once "../Templates/contact.php";
         break;
+    case 'pricing':
+        $titleSuffix = ' | Pricing';
+        $updates = getUpdates();
+        include_once "../Templates/pricing.php";
+        break;
 
     default:
     $titleSuffix = ' | Home';
